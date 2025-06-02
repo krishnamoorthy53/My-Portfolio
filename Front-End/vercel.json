@@ -1,5 +1,14 @@
 {
+  "version": 2,
   "builds": [
-    { "src": "package.json", "use": "@vercel/next" }
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "installCommand": "npm install --legacy-peer-deps --force",
+        "buildCommand": "npm run build",
+        "outputDirectory": "dist"
+      }
+    }
   ]
 }

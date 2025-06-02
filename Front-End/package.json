@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "vercel-build": "npm install --legacy-peer-deps && next build"
+    "preinstall": "npx npm-force-resolutions"
+
 
   },
   "dependencies": {
@@ -44,5 +45,8 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "vite": "^6.3.5"
-  }
+  },
+  "resolutions": {
+  "@react-three/fiber": "9.1.2"
+}
 }
