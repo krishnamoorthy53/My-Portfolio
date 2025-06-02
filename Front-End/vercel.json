@@ -1,14 +1,5 @@
 {
   "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node",
-      "config": {
-        "zeroConfig": true
-      }
-    }
-  ],
-  "scripts": {
-    "build": "npm run vercel-build"
-  }
+    { "src": "package.json", "use": "@vercel/next" }
+  ]
 }
