@@ -10,5 +10,14 @@
         "outputDirectory": "Front-End/dist"
       }
     }
+  ],
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
+    }
   ]
 }
