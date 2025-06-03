@@ -11,7 +11,6 @@ import { PiStudentFill } from "react-icons/pi";
 import { FaSchool } from "react-icons/fa";
 import tailwind from "/download (3).svg"
 import material from "/download (4).svg"
-import {Chrono} from "react-chrono"
 import javascript from "/download (5).svg"
 import reactJs from "/download (6).svg"
 import redux from "/download (7).svg"
