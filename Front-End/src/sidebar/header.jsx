@@ -12,6 +12,7 @@ import { RiSettings5Fill } from "react-icons/ri";
 // import { MdClose } from "react-icons/md";
 import { GiSuitcase } from "react-icons/gi";
 import { useNavigate } from "react-router-dom";
+import { TbBrandThreejs } from "react-icons/tb";
 
 
 
@@ -24,7 +25,7 @@ export default function Header(){
     const details = [
         { id: 1, name: "Home", icon: <FaHome className="size-4" />, path: "/" },
         { id: 2, name: "About", icon: <FaUser className="size-4" />, path: "/about" },
-        {id:5,name:"Animate",path:"/animate"},
+        {id:5,name:"3D Portfolio",icon:<TbBrandThreejs className="size-4"/>,path:"/animate"},
         { id: 3, name: "Services", icon: <RiSettings5Fill className="size-4" />, path: "/services" },
         { id: 4, name: "Portfolio", icon: <GiSuitcase className="size-4" />, path: "/portfolio" },
         { id: 5, name: "News", icon: <HiMiniNewspaper className="size-4" />, path: "/news" },

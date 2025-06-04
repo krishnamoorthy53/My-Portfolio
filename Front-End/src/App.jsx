@@ -18,8 +18,8 @@ import {  useEffect, useRef, useState } from 'react'
 import theatre, { getProject } from '@theatre/core';
 import Portfolio from './portofolio/portfolio'
 // import {extension} from "@theatre/r3f"
-import studio from "@theatre/studio"
-import extension from '@theatre/r3f/dist/extension'
+// import studio from "@theatre/studio"
+// import extension from '@theatre/r3f/dist/extension'
 import {editable as e} from "@theatre/r3f"
 // import theatre from "@theatre/core";
 import state from "./assets/PortfolioComputer.theatre-project-state (4).json"
@@ -40,10 +40,7 @@ import { motion, AnimatePresence } from 'framer-motion'
     const [nameDisplay,setNameDisplay]= useState(true)
 
 
-     studio.initialize()
-     studio.extend(extension)
-     studio.ui.hide()
-        
+
 
   const transitions  ={
     zoomIn:[0,2],
