@@ -20,17 +20,9 @@ import Header3D from '../sidebar/3dHeader'
 
 export function ComputerOg({props,setHover,hover}) {
   const { nodes } = useGLTF('/computer_setup.glb')
-
-  const videoTexture = useVideoTexture("/base-static.mp4")
-
-  const glass = useTexture("/55+ Best Glass Textures and Backgrounds.jpg")
+  const videoTexture = useVideoTexture("/base-static.mp4") 
   const shadowTexture = useTexture("/shadow.png")
-
   const smudgesTexture = useTexture("/smudges.png")
-
-  const windowTexture = useTexture("/How to Fix a WHEA Uncorrectable Error in Windows 10.jpg")
-
-  const monitorRef = useRef()
   const bakedTexture = useTexture("/baked_computer.jpg")
 
 
